@@ -1,0 +1,199 @@
+<html>
+    <head>
+        <title>WAKE UP!!!!</title>
+   <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  </head>
+  
+  <body>
+       <a-scene>
+          <a-text position="-0.5 4 0" value="WAKE UP!!!" scale="5 5 5" color="yellow"></a-text>
+          <!-- make local file using youtube to mp3 and then use video tag-->
+        <a-entity id= "box" onclick="changeVolume()" position="9 0 9"  sound="src: url(/morningsounds.mp3); autoplay: true; loop:true; volume:10"></a-entity>
+
+          <a-sky src="https://farm8.static.flickr.com/7684/27774635951_8d6054a2a2_b.jpg"></a-sky>
+          
+          <a-camera position="2 0.5 5"></a-camera>
+    
+        <!-- ROOSTER --->
+        <a-box position= "6 0 -7" height = '0.6' width = '1' depth = '1' color="gray">  
+        <a-animation attribute='position'
+        dur='600'
+        from='6 0 -7'
+        to='6 1 -7'
+        direction="alternate-reverse"
+        repeat='indefinite'
+        easing: 'bounce'
+        ></a-animation></a-box>
+        <a-box position="6 0.5 -6.5" height="0.5" width = "0.5" depth = "0.2" color="gray">    
+        <a-animation attribute='position'
+        dur='600'
+        from='6 0.5 -6.5'
+        to='6 1.5 -6.5'
+        direction="alternate-reverse"
+        repeat='indefinite'
+        easing: 'bounce'
+        ></a-animation></a-box>
+        <a-box position="6 0.5 -6.3" height="0.2" width= "0.3" depth="0.2"color="brown">   
+        <a-animation attribute='position'
+        dur='600'
+        from='6 0.5 -6.3'
+        to='6 1.5 -6.3'
+        direction="alternate-reverse"
+        repeat='indefinite'
+        easing: 'bounce'
+        ></a-animation></a-box>
+
+
+
+        <!-- PIG -->
+        
+        <a-box position="-0.37 0.939 -3.41" height = '1' width = '1' depth = '1.5' color="#ff9999">    
+        <a-animation attribute='position'
+        dur='700'
+        from='-0.37 0.939 -3.41'
+        to='-0.37 1.939 -3.41'
+        direction="alternate-reverse"
+        repeat='indefinite'
+        easing: 'bounce'
+        ></a-animation></a-box>
+        <a-box position="-0.20 0.357 -2.85" height = '0.3' width = '0.3' depth = '0.3' color="#ff9999">   
+        <a-animation attribute='position'
+        dur='700'
+        from='-0.2 0.357 -2.85'
+        to='-0.2 1.357 -2.85'
+        direction="alternate-reverse"
+        repeat='indefinite'
+        easing: 'bounce'
+        ></a-animation></a-box>
+        <a-box position="-0.60 0.357 -2.85" height = '0.3' width = '0.3' depth = '0.3' color="#ff9999">   
+        <a-animation attribute='position'
+        dur='700'
+        from='-0.6 0.357 -2.85'
+        to='-0.6 1.357 -2.85'
+        direction="alternate-reverse"
+        repeat='indefinite'
+        easing: 'bounce'
+        ></a-animation></a-box>
+        <a-box position="-0.24 0.357 -3.79" height = '0.3' width = '0.3' depth = '0.3' color="#ff9999">   
+        <a-animation attribute='position'
+        dur='700'
+        from='-0.24 0.357 -3.79'
+        to='-0.24 1.357 -3.79'
+        direction="alternate-reverse"
+        repeat='indefinite'
+        easing: 'bounce'
+       ></a-animation> </a-box>
+        <!--<a-box position="-0.60 0.357 -3.79" height = '0.3' width = '0.3' depth = '0.3' color="#ff9999">   -->
+        <!--<a-animation attribute='position'-->
+        <!--dur='700'-->
+        <!--from='0.6 0.369 -3.79'-->
+        <!--to='0.6 1.369 -3.79'-->
+        <!--direction="alternate-reverse"-->
+        <!--repeat='indefinite'-->
+        <!--easing: 'bounce'-->
+        <!--></a-animation></a-box>-->
+        <a-box position="-0.37 1.7 -3.07" height = '0.8' width = '0.8' depth = '0.8' color="#ff9999">   
+        <a-animation attribute='position'
+        dur='700'
+        from='-0.37 1.7 -3.07'
+        to='-0.37 2.7 -3.07'
+        direction="alternate-reverse"
+        repeat='indefinite'
+        easing: 'bounce'
+        ></a-animation></a-box>
+        <a-plane position= '-0.53 1.9 -2.6' height = '0.2' width = '0.2'>   
+        <a-animation attribute='position'
+        dur='700'
+        from='-0.53 1.9 -2.6'
+        to='-0.53 2.9 -2.6'
+        direction="alternate-reverse"
+        repeat='indefinite'
+        easing: 'bounce'
+        ></a-animation></a-plane>
+        <a-plane position= '-0.21 1.9 -2.6' height = '0.2' width = '0.2'>    
+        <a-animation attribute='position'
+        dur='700'
+        from='-0.21 1.9 -2.6'
+        to='-0.21 2.9 -2.6'
+        direction="alternate-reverse"
+        repeat='indefinite'
+        easing: 'bounce'
+        ></a-animation></a-plane>
+        <a-plane position= '-0.53 1.9 -2.6' height = '0.1' width = '0.1' color = 'black'>    
+        <a-animation attribute='position'
+        dur='700'
+        from='-0.53 1.9 -2.6'
+        to='-0.53 2.9 -2.6'
+        direction="alternate-reverse"
+        repeat='indefinite'
+        easing: 'bounce'
+        ></a-animation></a-plane>
+        <a-plane position= '-0.21 1.9 -2.6' height = '0.1' width = '0.1' color = 'black'>    
+        <a-animation attribute='position'
+        dur='700'
+        from='-0.21 1.9 -2.6'
+        to='-0.21 2.9 -2.6'
+        direction="alternate-reverse"
+        repeat='indefinite'
+        easing: 'bounce'
+        ></a-animation></a-plane>
+       <a-plane position= '-0.32 1.7 -2.60' height = '0.1' width = '0.1' color = '#d88282'>  
+       <a-animation attribute='position'
+        dur='700'
+        from='-0.32 1.7 -2.60'
+        to='-0.32 2.7 -2.60'
+        direction="alternate-reverse"
+        repeat='indefinite'
+        easing: 'bounce'
+        ></a-animation></a-plane>
+        <a-plane position= '-0.44 1.7 -2.60' height = '0.1' width = '0.1' color = '#d88282'>     
+        <a-animation attribute='position'
+        dur='700'
+        from='-0.44 1.7 -2.60'
+        to='-0.44 2.7 -2.60'
+        direction="alternate-reverse"
+        repeat='indefinite'
+        easing: 'bounce'
+        ></a-animation></a-plane>
+        
+        
+        <!--other animals-->
+    <a-gltf-model id='pig' src="/minecraft_-_pig/scene.gltf" visible='true' position='2 0 -1' scale = '.1 .1 .1'>
+        <a-animation attribute='position'
+        dur='500'
+        from='2 0 -1'
+        to='2 1 -1'
+        direction="alternate-reverse"
+        repeat='indefinite'
+        easing: 'bounce'
+        ></a-animation>
+        <!--<a-animation attribute='position'-->
+        <!--dur='700'-->
+        <!--from='3.9 1 -1'-->
+        <!--to='3.9 0 -1'-->
+        <!--repeat='indefinite'-->
+        <!--></a-animation>-->
+    </a-gltf-model>
+    <a-gltf-model id='cow' src="/usethisminecraftcow/scene.gltf" visible='true' position='8 0 -3' scale = '.1 .1 .1'><a-animation attribute='position'
+        dur='650'
+        from='8 0 -3'
+        to='8 1 -3'
+        direction="alternate-reverse"
+        repeat='indefinite'
+        easing: 'bounce'
+        ></a-animation></a-gltf-model>
+    <a-gltf-model id='wolf' src="/minecraft_-_wolf/scene.gltf" visible='true' position='-4 0 -1' scale = '.1 .1 .1'><a-animation attribute='position'
+        dur='800'
+        from='-4 0 -1'
+        to='-4 1 -1'
+        direction="alternate-reverse"
+        repeat='indefinite'
+        easing: 'bounce'
+        ></a-animation></a-gltf-model>
+
+</div>
+        </a-scene>
+  </body>
+  <script src ="index.js"></script>
+
+</html>

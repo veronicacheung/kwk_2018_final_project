@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+        <link rel="shortcut icon" href="/147354_200_ZBU_icon.ico" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>VR Clock</title>
+     <link rel="stylesheet" type="text/css" href="index.css">
+     <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+
+  </head>
+  <body background="http://celebwallpapers.net/wp-content/uploads/2018/02/free-background-images-night-time-beautiful-night-pexels-free-stock-s-of-free-background-images-night-time-1.jpg">
+    <div class="container">
+      <br></br>
+      <center><h1>VR Clock</h1></center>
+      <br>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Alarm</h5>
+              <p class="card-text">What time would you like to wake up?</p>
+                <form class="form-inline" href="https://kwk-2018-final-project-veronicacheung1105.c9users.io/blank.html">
+                  <input type="time" class="form-control" id="alarmvalue" name="alarmname">
+                  <button id="buttonalarm" class="btn btn-primary" type="submit">Set Alarm</button>
+                </form>              
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Timer</h5>
+              <p class="card-text">In how long would you like to be woken up?</p>
+              <form class="form-inline" action="blank1.html">
+               <!--   <input type="date" id="timedate" name="timedate"-->
+               <!--value="2018-07-22"-->
+               <!--min="2018-07-20" max="2018-07-20" />-->
+               <!--   <input type="time" class="form-control" id="timevalue" name="timename">-->
+               <label for="timertime">Date/time:</label>
+                <input type="datetime" id="timertime" name="timertime" value="2018-07-20 10:00" min="2018-07-20 00:00" max="2018-07-21 00:00" />
+                  <button id="buttontime" class="btn btn-primary" type="submit">Set Timer</button>
+              </form>                
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+
+    </div>
+    </div>
+  </body>  
+  <script src ="index.js"></script>
+  <script src="timer.js"></script>
+</html>

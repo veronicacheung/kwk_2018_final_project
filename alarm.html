@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title> VR Clock</title>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"> </script>
+  </head>
+
+  <body>
+
+    <a-scene light="defaultLightsEnabled: false" physics="debug: true">
+
+      <a-entity light="type: ambient"></a-entity>
+      <a-entity id="camera" camera look-controls wasd-controls position="0 0 20"></a-entity>
+
+          <a-sky src="https://farm8.static.flickr.com/7684/27774635951_8d6054a2a2_b.jpg"></a-sky>
+
+        <!-- MINECRAFT-STYLE ROOSTER --->
+        <a-box> color="gray" </a-box>
+        
+           <!-- ROOSTER --->
+        <a-box position= "8.8 0 13.75" height = '1' width = '1' depth = '2' color="gray"></a-box>
+        <a-box position= "8 0 12.5" height = '0.5' width = '0.5' depth= '2' color="gray"> </a-box>
+
+        
+  </body>
+    </a-scene>
+
+    <script src="./index.js"></script>
+  </body>
+
+</html>
